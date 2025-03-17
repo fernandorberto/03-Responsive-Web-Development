@@ -1,0 +1,51 @@
+React é framework baseado em javascript
+criado pelo facebook 2011 e lançamento 2013
+
+componentes = páginas
+renderização = pagina index consumindo um ou vários componentes
+html + javascript = jsx, tsx
+
+Pre-requisitos
+
+vscode(IDE)
+Node JS - framework em javascript(Backend) 
+npm - gerenciador de pacotes
+
+extensões 
+
+Material Icon Theme
+ES7 React/Redux/React-Native snippets
+
+1º CRIAR A PASTA DO PROJETO
+
+2º ABRIR A PASTA NO VSCODE
+
+3º ABRIR O TERMINAL
+
+4º DIGITAR npm create vite@latest .
+
+5º VAI CRIAR A ESTRUTURA
+
+6º NO TERMINAL DIGITAR npm install
+
+7º ESPERAR INSTALAR A PASTA node_modules
+
+8º NO TERMINAL DIGITAR npm run dev ( rodar o projeto)
+
+Obs: digitar o npm install dentro da pasta do projeto e não fora
+
+9º LIMPAR ESTRTURA 
+
+public- apagar imagem
+
+src/assets- apagar imagem
+
+src- apagar App.css
+
+src- apagar Index.css
+
+src /main.jsx - apagar a linha que contem o import './index.css'
+
+src /App.jsx - apagar todas linhas acima do function App
+dentro da função apagar a linha cont[count,setcount]=usestate();
+depois apagar tudo que estiver dentro das fragements <> </>

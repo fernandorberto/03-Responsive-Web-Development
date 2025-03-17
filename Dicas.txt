@@ -1,0 +1,82 @@
+CMD - COMMAND PROMPT 
+
+dir - lista diretórios
+
+cls - limpa tela
+
+cd .. volta 
+
+cd + nome - entra 
+
+tree - arvore de diretórios
+
+color help -
+
+dir /s /w - comando matriz
+
+alt + enter - tela cheia
+
+
+LINK INSTALADOR GIT BASH
+
+https://git-scm.com/downloads
+
+Abre a pasta no vscode
+
+code .
+
+
+
+CRIADOR DO HTML -HYPER TEXT MARKUP LANGUAGE
+
+OS 3 PILARES DA WEB-  HTML, CSS E JAVASCRIPT
+
+ TIM BENNER LEE
+
+ 1995- HTML 2.0
+ 1997- HTML 3.0
+ 2000- HTML 4.0
+ 2004- HTML 5.0
+
+
+ GIT
+
+ 1º NO TERMINAL:git init
+ 2º CONFIGURAR USUARIO: git config --global user.name "Wellington"
+ 3º CONFIGURAR EMAIL: git config --global user.email welltecnic@hotmail.com
+ 4º VERIFICAR O STATUS: git status
+ 5º ADICIONAR PARA O COMMIT : git add .  
+ 6º REALIZER COMMIT : git commit -m "Criando o projeto HTML"
+ 7º VISUALIZA OS COMMITS CRIADOS: git log
+ 
+
+Comando para criar arquivo em linux
+
+touch nome do arquivo
+
+
+EXTENSÕES 
+
+Live server - emula servidor web para rodar páginas html
+
+Material Icon Theme - icones de pasta e arquivos.
+
+icones 
+
+https://icons8.com.br/
+
+https://www.flaticon.com/br/
+
+
+Gerador de texto
+https://www.lipsum.com/
+
+Imagems gratuitas
+
+https://br.freepik.com/?log-in=google
+
+https://pixabay.com/pt/
+
+https://unsplash.com/pt-br
+
+

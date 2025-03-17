@@ -1,0 +1,57 @@
+:root{
+    --fontColor1:#000;
+    --fontColor2:#fff;
+    --fontColor3:#00ffff;
+    --bgColor1:#110656;
+    --bgColor2:#f0aaf0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: var(--bgColor2);
+}
+
+header,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid var(--fontColor1);
+    width: 100%;
+    height: 60px;
+    font-size: 1rem;
+    background: var(--fontColor3);
+    color: var(--fontColor1);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1 auto;
+    flex-wrap:wrap;
+    width: 100%;
+    gap:10px 10px;
+    padding: 10px; 
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    border: 2px solid var(--fontColor1);
+    background: var(--bgColor1);
+    color:var(--fontColor2);
+}
+select.selected{
+    background: yellow;
+}
