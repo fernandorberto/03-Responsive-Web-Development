@@ -1,0 +1,132 @@
+/*RESET BÁSICO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #efe3e3;
+    padding: 10px;
+}
+
+#titulo{
+    color:blue;
+    text-align: center;
+}
+
+.subtit{
+    color:#312d2d;
+    text-align: center;
+    padding: 10px;
+}
+hr{
+    margin: 10px;
+    border: 1px solid aqua;
+}
+.p1{
+    font-size: 18px;
+    color:brown;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+}
+
+.ptext{
+    font-size: 20px;
+    padding: 5px;
+}
+
+#img1{
+    width: 80%;
+    height:600px;
+    border-radius: 20px;
+    margin-left: 10%;
+    padding: 10px;
+}
+ol,ul{
+    margin-left: 50%;
+    padding: 10px;
+}
+li{
+    color:brown;
+    font-weight: 600;
+    padding: 5px;
+}
+
+dl{
+    margin: 20px;
+}
+dt{
+    color:red;
+    font-size: 1.4rem;
+    padding: 10px;
+}
+dd{
+    color:blue;
+    padding: 10px;
+}
+.form1{
+    width: 250px;
+    height: 250px;
+    margin-left:45% ;
+}
+
+#titForm{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#btnform1{
+    width: 100px;
+    height: 30px;
+    margin: 20px auto;
+    background: blue;
+    color:#fff;
+}
+
+#btnform1:hover{
+    background: purple;
+    color:aqua;
+}
+
+.form2{
+    max-width: 500px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+p, input,select, buton{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+h3{
+    padding: 10px;
+    color: blue;
+    text-transform: uppercase;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    background: #ccc;
+}
+h4{
+    text-align: center;
+    font-size: 1.8rem;
+}
+th, td{
+    border:1px solid #fff;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    text-align: center;
+    background: blue;
+    color: #fff;
+}

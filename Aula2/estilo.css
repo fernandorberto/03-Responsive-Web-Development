@@ -1,0 +1,29 @@
+/*RESET BÁSICO*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ccc;
+}
+
+
+#t1{
+    color:orange;
+    background: #000;
+    font-size: 40px;
+}
+#t2{
+    color:#fff;
+    background: blue;
+}
+#t3{
+    color:green;
+    background: pink;
+}
+.titulo{
+    color:#fff;
+    background: purple;
+}

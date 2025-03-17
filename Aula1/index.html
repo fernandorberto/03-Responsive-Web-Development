@@ -1,0 +1,202 @@
+<!-- IDENTIFICA A VERSÃO DO NAVEGADOR -->
+<!DOCTYPE html>
+<!-- INICIO DO HTML E A LINGUAGEM -->
+<html lang="pt-br">
+ <!-- INICIO DO CABEÇALHO -->
+<head>
+    <!-- IDENTIFICA CARACTERES ESPECIAIS E ACENTOS -->
+    <meta charset="UTF-8">
+    <!-- IDENTIFICA O TIPO DE RESOLUÇÃO DO DISPOSITIVO(MONITOR,CELULAR,TV,PROJETO) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ADICIONANDO ICONE NO TITULO DA PÁGINA -->
+     <link rel="shurtcut icon" href="./img/icone.png"/>
+    <!-- TITULO DA PÁGINA -->
+    <title>Escola Dev</title>
+    <!-- FINAL DO CABEÇALHO -->
+</head>
+<!-- INICIO DO CORPO DA PÁGINA -->
+<body>
+
+    <!-- TIPOS DE TITULOS DO CORPO DA PÁGINA -->
+     <h1>ESCOLA DE DESENVOLVEDORES</h1>
+     <h2>Seja Bem-Vindo a nossa Escola</h2>
+     <h3>Desenvolvedor Nível 1</h3>
+     <h4>Desenvolvedor Nível 2</h4>
+     <h5>Desenvolvedor Nível 3</h5>
+     <h6>Desenvolvedor Nível 4</h6>
+     
+     <hr>
+
+     <!-- PARAGRAFOS DE TEXTOS -->
+     <p>Conteúdo da primeira semana Dev</p>
+     <p>Conteúdo da segunda semana Dev</p>
+     <p>Conteúdo da terceira semana Dev</p>
+     
+     <!-- LINHA DIVISORIA -->
+     <hr>
+
+     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus tempore autem iure animi, accusantium rerum neque aliquam ab exercitationem explicabo, eveniet nam ratione! Voluptatibus pariatur saepe nam? Libero, illo dolorum?</p>
+
+     <hr>
+
+    <!-- TRATAMENTO DE IMAGENS -->
+
+    <img src="./img/imagem1.jpg" alt="Imagem Escola" title="Escola" width="600"/>
+
+    <hr>
+
+    <!-- LISTA ORDENADAS -->
+     <ol>
+        <li>Conteúdo da Aula 1</li>
+        <li>Conteúdo da Aula 2</li>
+        <li>Conteúdo da Aula 3</li>
+     </ol>
+      <!-- LISTA ORDENADAS PERSONALIZADAS -->
+
+      <ol type="A">
+        <li>Conteúdo da Aula 1</li>
+        <li>Conteúdo da Aula 2</li>
+        <li>Conteúdo da Aula 3</li>
+     </ol>
+
+     <hr>
+
+     <!-- LISTA NÃO ORDENADAS -->
+      <ul>
+        <li>Conteúdo Vídeo 1</li>
+        <li>Conteúdo Vídeo 2</li>
+        <li>Conteúdo Vídeo 3</li>
+      </ul>
+
+       <!-- LISTA NÃO ORDENADAS PERSONALIZADAS -->
+
+
+       <ul type="square">
+        <li>Conteúdo Vídeo 1</li>
+        <li>Conteúdo Vídeo 2</li>
+        <li>Conteúdo Vídeo 3</li>
+      </ul>
+
+      <ul type="circle">
+        <li>Conteúdo Vídeo 1</li>
+        <li>Conteúdo Vídeo 2</li>
+        <li>Conteúdo Vídeo 3</li>
+      </ul>
+    <hr>
+      <!-- DEFINIÇAÕ DE LISTA  DL-DEFINE LIST -DT-DEFINE TITLE - DD- DEFINE DESCRIPTION-->
+       <dl>
+            <dt>Disciplina 1</dt>
+            <dd>Descrição da disciplina 1</dd>
+            <dt>Disciplina 2</dt>
+            <dd>Descrição da disciplina 1</dd>
+            <dt>Disciplina 3</dt>
+            <dd>Descrição da disciplina 1</dd>
+       </dl>
+
+       <hr>
+
+       <!-- FORMULARIOS -->
+       <h2>Login Aluno</h2>
+       <form action="dados.html">
+            <input type="text" placeholder="Digite seu usuário" />
+            <input type="password" placeholder="Digite sua senha"/>
+            <button type="submit">Acessar</button>
+       </form>
+       <hr>
+       <form>
+        <fieldset>
+            <legend>Tipos de Inputs</legend>
+            
+            <p>Input de Texto:<input type="text"/></p>
+            <p>Input de Senha:<input type="password"/></p>
+            <p>Input de Checkbox:<input type="checkbox"/></p>
+            <p>Input de Radio:<input type="radio"/></p>
+            <p>Input de Range:<input type="range"/></p>
+            <p>Input de Submit:<input type="submit" value="Entrar"/></p>
+            <p>Input de Color:<input type="color"/></p>
+            <p>Input de Data:<input type="date"/></p>
+            <p>Input de Arquivo:<input type="file"/></p>
+            <p>Input de Hidden:<input type="hidden"/></p>
+            <p>Input de Número:<input type="number"/></p>
+            <p>Input de Número Personalizado:<input type="number" min="1" max="5"/></p>
+            <p>Input de Reset:<input type="reset"/></p>
+
+            <h2>Selecione uma opção</h2>
+            <select name="select">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JAVASCRIPT</option>
+            </select>
+            
+        </fieldset>
+       </form>
+    <hr>
+
+    <!-- LINKS -->
+
+    <h3>ACESO RÁPIDO</h3>
+    <a href="https://google.com.br">Página Google</a>
+    <h3>Acesso a uma página interna</h3>
+    <a href="dados.html">Página Dados</a>
+
+    <hr>
+
+    <!-- TABELAS -->
+
+    <h4>Lista de Alunos</h4>
+
+    <table border="1">
+        <tr>
+            <td>Nome</td>
+            <td>Idade</td>
+        </tr>
+        <tr>
+            <td>Huguinho</td>
+            <td>Zezinho</td>
+        </tr>
+    </table>
+    
+    <hr>
+
+    <!-- TABELA PERSONALIZADA -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Imagem</th>
+            </tr>      
+        </thead>
+        <tbody>
+            <tr>
+                <td>Notebook</td>
+                <td>R$ 50000</td>
+                <td><img src="./img/imagem1.jpg" width="100"></td>
+            </tr>
+
+            <tr>
+                <td>PC GAMER</td>
+                <td>R$ 7000</td>
+                <td><img src="./img/imagem1.jpg" width="100"></td>
+            </tr>
+
+            <tr>
+                <td>PC ESCRITÓRIO</td>
+                <td>$$ 2000</td>
+                <td><img src="./img/imagem1.jpg" width="100"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- RODAPÉ DA PÁGINA -->
+    <footer>
+        <h5>@2025- todos os direitos reservados.</h5>
+    </footer>
+
+
+     <!-- FINAL DO CORPO DA PÁGINA -->
+</body>
+<!-- FINAL DO HTML -->
+</html>
